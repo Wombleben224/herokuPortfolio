@@ -13,6 +13,12 @@
     "helmet": "^4.1.1",
     "serve-favicon": "^2.5.0"
   },
+  "buildpacks": [{
+    "url": "heroku/nodejs"
+  }],
+  "engines": {
+    "node": "12.16.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

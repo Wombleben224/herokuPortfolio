@@ -22,7 +22,3 @@ app.get('/contact_me', (req,res) => {
 app.use('/bootswatch', express.static('node_modules/bootswatch/dist'));
 app.use("/", express.static('static'));
 
-app.listen(8080, () => {
-  console.log('server is starting at port', 8080);
-})
-
